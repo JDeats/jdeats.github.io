@@ -1,42 +1,50 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.education {
+  margin-bottom: 0px;
+  text-align: left;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.indented {
+  margin-left: 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.leftAlign {
+  text-align: left;
 }
 
-.card {
-  padding: 2em;
+.objective {
+  margin-left: 2em;
+  text-align: left;
 }
 
-.read-the-docs {
-  color: #888;
+.resume-job-title {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
+
+.resume-section-header {
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.spread-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin-top: -20px;
+}
+
+ul li {
+  text-align: left;
+  margin-left: -10px;
+}
+
+
