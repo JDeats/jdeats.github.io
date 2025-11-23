@@ -8,7 +8,7 @@ export default function WorkHistory() {
             <span>Jan 2024 - July 2025</span>
         </div>
         <p className="resume-job-title">Software Engineer</p>
-        <ul>
+        <ul style={{marginBottom: "5px"}}>
           <li>Designed and maintained Microsoft WPF apps to align the infrared and visible lasers of the 
               X4 Laser Range Finder (X4-LRF) and calibrate their power levels during production.</li>
           <li>Used Microsoft Entity Framework and RESTful APIs to store and manage data in a SQL Server.</li>
@@ -48,7 +48,7 @@ export default function WorkHistory() {
             <span>Jul 2019 - Sept 2021</span>
         </div>
         <p className="resume-job-title">Test Engineer</p>
-        <ul>
+        <ul style={{marginBottom: "5px"}}>
           <li>Authored, revised and maintained production test procedures in compliance with MIL-STD-810G for advanced Hybrid Thermal/Night Vision Optics.</li>
           <li>Setup test stations and performed validation testing to verify functionality and uniformity.</li>
           <li>Supported the test lab to ensure anomalies were handled in an appropriate and timely manner.</li>

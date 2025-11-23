@@ -33,6 +33,19 @@
   margin-bottom: 0px;
 }
 
+.project-section-header {
+  font-weight: 500;
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0px;
+  line-height: 1.2;
+}
+
+.project-section-header span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
 .spread-content {
   display: flex;
   justify-content: space-between;

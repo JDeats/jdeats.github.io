@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Container style={{marginTop: 80, marginBottom: 60}}>
+      <Container style={{marginTop: 70, marginBottom: 60}}>
         <Outlet />
       </Container>
     </div>

@@ -32,13 +32,13 @@ function NavBar() {
                   title="Projects"
                   id={`offcanvasNavbarDropdown-expand-${size}`}
                 >
-                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
-                    Another action
-                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to='/projectsOverview'>Overview</NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">
-                    Something else here
+                  <NavDropdown.Item as={NavLink} to='/reactivities'>
+                    Reactivities
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to='/glidelog'>
+                    Glide Log
                   </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#action2">About</Nav.Link>
