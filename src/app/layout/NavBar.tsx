@@ -40,6 +40,9 @@ function NavBar() {
                   <NavDropdown.Item as={NavLink} to='/glidelog'>
                     Glide Log
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to='/simon'>
+                    Simon
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#action2">About</Nav.Link>
               </Nav>

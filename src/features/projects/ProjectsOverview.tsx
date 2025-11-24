@@ -14,6 +14,11 @@ export default function ProjectsOverview() {
         <NavLink to='/glidelog'>Glide Log</NavLink>
         <p>A cross-platform mobile app built with .NET Maui for logging paragliding and hang gliding flights.</p>
       </div>
+
+      <div style={{ textAlign: "left", display:"flex", gap:"5px"}}>
+        <NavLink to='/simon'>Simon</NavLink>
+        <p>A recreation of the Simon memory game made by Milton Bradley using HTML, CSS and Javascript.</p>
+      </div>
     </>
   )
 }

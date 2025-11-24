@@ -1,10 +1,10 @@
 export default function Reactivities() {
   return (
     <>
-        <img src='./images/Reactivities//HomePageReduced.jpg' style={{width: "75%", marginBottom: "10px"}}/>
+        <img src='./images/Reactivities/HomePageReduced.jpg' style={{width: "75%", marginBottom: "10px"}}/>
 
         <p className="project-section-header" style={{marginBottom: "10px"}}>Description: <span>A web app built with ASP.NET Core and React, hosted on Microsoft Azure. 
-            This app was made while following the Udemy course: "The complete guide to building an app from start to finish using .Net 9.0, React 19 and React Query". Completed on Nov. 7, 2025.</span>
+            This app was made while completing the Udemy course: "The complete guide to building an app from start to finish using .Net 9.0, React 19 and React Query". Completed on Nov. 7, 2025.</span>
         </p>
         <div style={{marginBottom: "10px"}}></div>
         <p className="leftAlign">

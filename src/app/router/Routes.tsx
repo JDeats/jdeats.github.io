@@ -5,6 +5,7 @@ import ResumeContent from "../../features/resume/ResumeContent";
 import Reactivities from "../../features/projects/Reactivities";
 import ProjectsOverview from "../../features/projects/ProjectsOverview";
 import GlideLog from "../../features/projects/GlideLog";
+import Simon from "../../features/projects/Simon";
 
 export const router = createBrowserRouter([
   { 
@@ -15,7 +16,8 @@ export const router = createBrowserRouter([
         {path: 'resume', element: <ResumeContent />},
         {path: 'reactivities', element: <Reactivities />},
         {path: 'projectsOverview', element: <ProjectsOverview />},
-        {path: 'glidelog', element: <GlideLog />}
+        {path: 'glidelog', element: <GlideLog />},
+        {path: 'simon', element: <Simon/>}
     ]
   }
 ]);
