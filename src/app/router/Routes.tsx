@@ -6,6 +6,7 @@ import Reactivities from "../../features/projects/Reactivities";
 import ProjectsOverview from "../../features/projects/ProjectsOverview";
 import GlideLog from "../../features/projects/GlideLog";
 import Simon from "../../features/projects/Simon";
+import ExtraStockBooks from "../../features/projects/ExtraStockBooks";
 
 export const router = createBrowserRouter([
   { 
@@ -17,7 +18,8 @@ export const router = createBrowserRouter([
         {path: 'reactivities', element: <Reactivities />},
         {path: 'projectsOverview', element: <ProjectsOverview />},
         {path: 'glidelog', element: <GlideLog />},
-        {path: 'simon', element: <Simon/>}
+        {path: 'simon', element: <Simon />},
+        {path: 'extraStockBooks', element: <ExtraStockBooks />}
     ]
   }
 ]);

@@ -43,6 +43,9 @@ function NavBar() {
                   <NavDropdown.Item as={NavLink} to='/simon'>
                     Simon
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to='/extraStockBooks'>
+                    Extra-Stock Books
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#action2">About</Nav.Link>
               </Nav>
