@@ -1,7 +1,7 @@
 export default function ProfessionalSkills() {
   return (
     <div>
-        <p className="resume-section-header">PROFESSIONAL SKILLS:</p>
+        <p className="resume-section-header" style={{marginBottom: "18px"}}>PROFESSIONAL SKILLS:</p>
         <div style={{marginLeft: "2em"}}>
             <ul>
                 <li>Proficient with Microsoft 365 apps such as Word, Excel, PowerPoint, Teams and SharePoint.</li>

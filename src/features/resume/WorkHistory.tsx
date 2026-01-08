@@ -19,7 +19,7 @@ export default function WorkHistory() {
         </ul>
 
         <div className="spread-content">
-            <span style={{fontWeight: "bold"}}>Entry Level Software Engineer</span>
+            <span style={{fontWeight: "bold", marginBottom: "16px"}}>Entry Level Software Engineer</span>
             <span>Jun 2022 - Jan 2024</span>
         </div>
         <ul>
@@ -56,7 +56,7 @@ export default function WorkHistory() {
         </ul>
 
         <div className="spread-content">
-            <span style={{fontWeight: "bold"}}>Lead Environmental Test Technician</span>
+            <span style={{fontWeight: "bold", marginBottom: "16px"}}>Lead Environmental Test Technician</span>
             <span>Jan 2014 - Nov 2018</span>
         </div>
         <ul>

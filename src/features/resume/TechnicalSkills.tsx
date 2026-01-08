@@ -1,7 +1,7 @@
 export default function TechnicalSkills() {
   return (
     <div>
-        <p className="resume-section-header">TECHNICAL SKILLS:</p>
+        <p className="resume-section-header" style={{marginBottom: "18px"}}>TECHNICAL SKILLS:</p>
         <div style={{marginLeft: "2em"}}>
             <ul>
                 <li>3+ years of professional experience developing and maintaining Microsoft WPF apps using C#.</li>
