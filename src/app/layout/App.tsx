@@ -6,9 +6,9 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div>
+    <div className="appDiv">
       <NavBar />
-      <Container style={{marginTop: 70, marginBottom: 60}}>
+      <Container>
         <Outlet />
       </Container>
     </div>

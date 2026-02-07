@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.appDiv { 
+  height: 100vh;
+}
+
+body {
+  background: linear-gradient(to right, rgba(66, 80, 72, 0.507), rgba(139, 226, 255, 0.205));
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1440px;
@@ -19,6 +31,10 @@
 
 .leftAlign {
   text-align: left;
+}
+
+.navbar {
+  background-color: rgba(247, 247, 247, 0.568);
 }
 
 .objective {

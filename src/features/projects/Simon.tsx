@@ -6,6 +6,11 @@ export default function Simon() {
         </p>
 
         <div style={{marginBottom: "10px"}}></div>
+        <p>
+          A simple web app I made to practice the basics. Play a quick game by clicking on the first link below.
+        </p>
+
+        <div style={{marginBottom: "10px"}}></div>
         <p className="centerAlign">
           
         </p>

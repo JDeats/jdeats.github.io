@@ -10,7 +10,7 @@ function NavBar() {
   const size = 'sm';
   return (
     <>
-      <Navbar key={size} expand={size} className="bg-body-tertiary mb-3" fixed='top'>
+      <Navbar key={size} expand={size} className="mb-3">
         <Container fluid>
           <Navbar.Brand as={NavLink} to='/'>JD</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${size}`} />
@@ -47,7 +47,7 @@ function NavBar() {
                     Extra-Stock Books
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#action2">About</Nav.Link>
+                <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

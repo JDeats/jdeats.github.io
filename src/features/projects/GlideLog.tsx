@@ -15,11 +15,11 @@ export default function GlideLog() {
             <a href="https://github.com/JDeats/GlideLog" target="_blank" rel="noopener noreferrer" title="GlideLog">Link To Github</a>
         </div>
 
-        <p className="project-section-header">Core Concepts Learned:</p>
-        <ul style={{marginLeft: "1em"}}>
-            <li>Creating a cross-platform mobile app using .NET Maui</li>
+        <p className="project-section-header">Major Features:</p>
+        <ul style={{marginLeft: "1em", marginTop: "-15px"}}>
+            <li>Cross-platform mobile app, tested on Android, iOS and Windows</li>
+            <li>Platform specific code for exporting a .csv file</li>
             <li>MVVM design pattern</li>
-            <li>Writing platform specific code for exporting a .csv file</li>
             <li>Local database using SQLite</li>
             <li>Flyout menu for updating the Flight List</li>
             <li>Tab bar for navigating between views</li>

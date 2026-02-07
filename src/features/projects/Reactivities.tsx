@@ -27,7 +27,7 @@ export default function Reactivities() {
         </div>
 
         <p className="project-section-header">Core Concepts Learned:</p>
-        <ul style={{marginLeft: "1em"}}>
+        <ul style={{marginLeft: "1em", marginTop: "-15px"}}>
             <li>Creating a multi-project solution containing an ASP.NET Core project and a React app using the DotNet CLI and Vite CLI</li>
             <li>Clean Architecture and the CQRS + Mediator pattern</li>
             <li>Using React with Typescript</li>
