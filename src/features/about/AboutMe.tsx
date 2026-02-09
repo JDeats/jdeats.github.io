@@ -31,7 +31,7 @@ export default function AboutMe() {
           decided to move on to Hexagon Industries as a Calibration Technician. There I performed 
           calibrations and upgrades on Leica Laser Trackers. I did this for about eight months before 
           I was offered a Test Engineer position back at N2 Imaging Systems. The company had 
-          sold again to a new company called Cornerstone Capital Holdings, some of the old managers 
+          sold again to a new company called Cornerstone Capital Holdings. Some of the old managers 
           were back in the picture and I decided to return. I authored and revised test procedures per MIL-STD-810G 
           using product knowledge and experience I gained over the years working as a technician. I also conducted 
           a number of offsite environmental tests such as Sand and Dust, Salt Fog and EMI.
@@ -67,7 +67,7 @@ export default function AboutMe() {
           continuing to improve my embedded programming skills. I gained
           embedded experience with FreeRTOS while employed at Maztech Industries 
           and plan to continue developing my expertise with that operating system.
-          Another project I worked on was a prototype for a USB controllable power strip paired with a C# desktop app.
+          Another project I worked on was a USB controllable power strip paired with a C# desktop app.
           See that project{" "}
           <Link to="/reactivities">here.</Link>
         </p>
