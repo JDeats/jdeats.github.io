@@ -8,7 +8,7 @@ export default function AboutMe() {
       {/* <img src='./images/AboutMe/San Bernardino Mountains All Alone.png' 
         style={{ width: '100%', height: '300px', objectFit: 'cover', objectPosition: 'center', marginBottom: "30px"}}/> */}
       <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "20px"}}>
-        <h4>Electronics, Engineering and Test Technician</h4>
+        <h4>Electronics and Test Technician</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>After high school I went to ITT Tech and earned an Associates Degree in 
           Electronics. I found a job as a Quality Control Techinican at Ampronix, inspecting component level
           repairs on medical grade monitors (CRT and LCD). I also performed chromaticity and
@@ -18,29 +18,29 @@ export default function AboutMe() {
           production for a few months, then moved into a prototype program handling various
           tasks such as prototype assembly, functional tests, performance tests and life testing. 
           The prototype program moved into production and I began to help the engineers complete 
-          their tasks and projects. I worked as an engineering technician 
-          until the company had the need for a lot of environmental testing. They partnered with Leonardo DRS 
+          their tasks and projects. This is when I became inspired to learn software. Then the
+          company had the need for a lot of environmental testing. They partnered with Leonardo DRS 
           to win a contract worth $367m for the production of Enhanced Night Vision Goggles (ENVG III).
           I learned how to run the environmental tests on our product such as thermal cycling, 
-          vibration, immersion, etc. Eventually I became the Lead Environmental Test Technician and led a team of 
-          12 test technicians to successfully qualify the product and move it into
-          production. Some tests such as Reliability Qualification Testing required 24/7 coverage
-          so three shifts were implemented and I was always on call for support if needed.
+          vibration and immersion. Eventually I became the Lead Environmental Test Technician and led a team of 
+          12 techs to successfully qualify the product and move it into
+          production. Some tests such as Reliability Qualification Testing ran for several weeks and required 24/7 coverage. 
+          Three shifts were implemented, and I provided on-call support for the night and weekend crews.
         </p>
 
         <h4>Test Engineer</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>
-          After winning the contract, the company was sold to United Technologies and unfortunately performance declined over the next few years.
-          I had been working at N2 Imaging Systems for about 7 years and 
+          Following the contract award, the company was sold to United Technologies and unfortunately performance declined over the next few years.
+          I spent a total of 7 years at N2 Imaging Systems before I
           decided to move on to Hexagon Industries as a Calibration Technician. There I performed 
           calibrations and upgrades on Leica Laser Trackers. I did this for about eight months before 
-          I was offered a Test Engineer position back at N2 Imaging Systems. The company had 
-          sold again to a new company called Cornerstone Capital Holdings. Some of the old managers 
-          were back in the picture and I decided to return. I authored and revised test procedures per MIL-STD-810G 
+          I was offered a Test Engineer position back at N2 Imaging Systems. The company was sold to 
+           Cornerstone Capital Holdings and some of the old managers 
+          were back in the picture to try and turn things around so I decided to return. There I authored and revised test procedures per MIL-STD-810G 
           using product knowledge and experience I gained over the years working as a technician. I also conducted 
           a number of offsite environmental tests such as Sand and Dust, Salt Fog and EMI.
           That lasted for about two years 
-          until several complications led to the new owners closing the business. Then I found a job at Virgin Orbit 
+          until several complications led to the new owners closing the business. Soon after I found a job at Virgin Orbit 
           as a Propulsion Components Test Technician where I setup and validated a wide variety of air 
           and fluid systems to test rocket propulsion components such as regulators, check/relief valves, 
           flow meters/sensors, hoses and fittings, etc. I was there for about 7 months until I
@@ -67,7 +67,7 @@ export default function AboutMe() {
         <h4>Hobbies</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>
           I've always enjoying tinkering with electronics and building hands-on projects.
-          Recently, I've been experimenting with a STM32 development board and 
+          Recently, I've been playing with a STM32 development board and 
           continuing to improve my embedded programming skills. I gained
           experience with FreeRTOS while employed at Maztech Industries 
           and plan to continue developing my expertise with that operating system.

@@ -35,6 +35,18 @@ export default function HomePage() {
             <h5 style={{marginTop: '10px'}}>More About Me</h5>
           </div>
         </div>
+
+        <div className="row" style={{marginTop: "50px"}}>
+          <h5>Contact Me </h5>
+          <div style={{display: "flex", alignItems: "center", gap: "10px", justifyContent: "center"}}>
+            <h5>JDeaton26@gmail.com</h5>
+            <div style={{width: "1px", height: "30px", backgroundColor: "#000"}}></div>
+            <a href="https://www.linkedin.com/in/jared-deaton-96000567/" target="_blank" rel="noopener noreferrer">
+              <img src="images/HomePage/LinkedInLogo.jpg" alt="LinkedIn" style={{width: "30px"}}/>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   )

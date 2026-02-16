@@ -12,7 +12,9 @@ function NavBar() {
     <>
       <Navbar key={size} expand={size} className="mb-3">
         <Container fluid>
-          <Navbar.Brand as={NavLink} to='/'>JD</Navbar.Brand>
+          <Navbar.Brand as={NavLink} to='/'>
+            <img src='images/NavBar/Initials.png' style={{width: "45%"}}/>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${size}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${size}`}
