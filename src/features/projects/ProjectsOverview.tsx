@@ -30,6 +30,12 @@ export default function ProjectsOverview() {
             online with discounts on bulk purchases.</p>
         </div>
 
+        <div style={{ textAlign: "left", display:"flex", gap:"5px"}}>
+          <NavLink to='/usbPowerStrip'>USB Power Strip</NavLink>
+          <p>A power strip that can be controlled by software via USB. Made using an Arduino, 
+            some electrical components and a 3D printer. Includes a C# library and desktop app.</p>
+        </div>
+
       </div>   
     </div>
   )

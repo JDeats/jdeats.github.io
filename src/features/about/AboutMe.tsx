@@ -8,23 +8,27 @@ export default function AboutMe() {
       {/* <img src='./images/AboutMe/San Bernardino Mountains All Alone.png' 
         style={{ width: '100%', height: '300px', objectFit: 'cover', objectPosition: 'center', marginBottom: "30px"}}/> */}
       <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "20px"}}>
-        <h4>Electronics Technician / Test Engineer</h4>
+        <h4>Electronics, Engineering and Test Technician</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>After high school I went to ITT Tech and earned an Associates Degree in 
           Electronics. I found a job as a Quality Control Techinican at Ampronix, inspecting component level
           repairs on medical grade monitors (CRT and LCD). I also performed chromaticity and
-          luminosity calibrations and provided tech support for all monitors serviced 
+          luminosity calibrations on the required monitors and provided tech support for all monitors we serviced 
           and repaired. Then a previous coworker recommended me for a Mechanical Technician position at 
           N2 Imaging Systems, assembling the electronics of Night Vision Goggles. I worked in
           production for a few months, then moved into a prototype program handling various
           tasks such as prototype assembly, functional tests, performance tests and life testing. 
-          I really enjoyed working with all the engineers and helping them complete their 
-          tasks. I worked for several years as a "floater" technician 
-          until the company had the need for a lot of environmental testing. Eventually I became 
-          the Lead Environmental Test Technician during which the company partnered with Leonardo DRS to win a
-          contract worth $367m for the production of Enhanced Night Vision Goggles (ENVG III).
-          I led a team of 12 test technicians to successfully qualify the product and move it into
-          production, maintaining 24/7 test coverage over three shifts.
+          The prototype program moved into production and I began to help the engineers complete 
+          their tasks and projects. I worked as an engineering technician 
+          until the company had the need for a lot of environmental testing. They partnered with Leonardo DRS 
+          to win a contract worth $367m for the production of Enhanced Night Vision Goggles (ENVG III).
+          I learned how to run the environmental tests on our product such as thermal cycling, 
+          vibration, immersion, etc. Eventually I became the Lead Environmental Test Technician and led a team of 
+          12 test technicians to successfully qualify the product and move it into
+          production. Some tests such as Reliability Qualification Testing required 24/7 coverage
+          so three shifts were implemented and I was always on call for support if needed.
         </p>
+
+        <h4>Test Engineer</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>
           After winning the contract, the company was sold to United Technologies and unfortunately performance declined over the next few years.
           I had been working at N2 Imaging Systems for about 7 years and 
@@ -63,19 +67,21 @@ export default function AboutMe() {
         <h4>Hobbies</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>
           I've always enjoying tinkering with electronics and building hands-on projects.
-          Recently, I've been experimenting with an STM32 development board and 
+          Recently, I've been experimenting with a STM32 development board and 
           continuing to improve my embedded programming skills. I gained
-          embedded experience with FreeRTOS while employed at Maztech Industries 
+          experience with FreeRTOS while employed at Maztech Industries 
           and plan to continue developing my expertise with that operating system.
-          Another project I worked on was a USB controllable power strip paired with a C# desktop app.
+          A project I worked on recently was a USB controllable power strip. I used an
+          Arduino and a relay to make a power strip that can be controlled by software.
           See that project{" "}
-          <Link to="/reactivities">here.</Link>
+          <Link to="/usbPowerStrip">here.</Link>
         </p>
-        <p style={{textAlign: "left", textIndent: "2em"}}>After completing my bachelors degree, I was looking for something new and fun to get into which led me to
+        <p style={{textAlign: "left", textIndent: "2em"}}>After completing my bachelors degree, 
+          I was looking for something new and fun to get into which led me to
           paragliding. It's an incredible feeling taking off into the sky, flying over 
           mountain and coastline ridges. Its been a great way to discover new places and 
-          meet new people. That Winter I decided
-          to try skiing as well and have really been enjoying my steady progress in that sport. 
+          meet new people. That winter, I decided to try skiing as well.  
+          Developing my skills and confidence on the mountain has been very rewarding.
           Maybe one day I can combine the two sports.
           I used to surf when I was younger but these days I prefer stand up paddle boarding and 
           have taken some kite surfing lessons. 

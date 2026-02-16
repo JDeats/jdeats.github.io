@@ -8,6 +8,7 @@ import GlideLog from "../../features/projects/GlideLog";
 import Simon from "../../features/projects/Simon";
 import ExtraStockBooks from "../../features/projects/ExtraStockBooks";
 import AboutMe from "../../features/about/AboutMe";
+import UsbPowerStrip from "../../features/projects/UsbPowerStrip";
 
 export const router = createBrowserRouter([
   { 
@@ -21,7 +22,8 @@ export const router = createBrowserRouter([
         {path: 'glidelog', element: <GlideLog />},
         {path: 'simon', element: <Simon />},
         {path: 'extraStockBooks', element: <ExtraStockBooks />},
-        {path: 'about', element: <AboutMe/>}
+        {path: 'about', element: <AboutMe/>},
+        {path: 'usbPowerStrip', element: <UsbPowerStrip/>}
     ]
   }
 ]);

@@ -17,6 +17,7 @@ export default function HomePage() {
             <h4 style={{marginBottom: "0px"}}>C# Desktop App Developer <span style={{fontSize: "22px"}}>(3+ Years of Professional Experience)</span></h4>
             <h4 style={{margin: "20px 0px"}}>Full Stack Web Developer Using React and ASP.NET Core</h4>
             <h4>Embedded Hobbyist & Accomplished Electronics Technician</h4>
+            <h4 style={{margin: "20px 0px"}}>Test Engineer with Expertise in Environmental Testing</h4>
           </div>
         </div>
 

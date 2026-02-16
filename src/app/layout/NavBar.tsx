@@ -46,6 +46,9 @@ function NavBar() {
                   <NavDropdown.Item as={NavLink} to='/extraStockBooks'>
                     Extra-Stock Books
                   </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to='/usbPowerStrip'>
+                    USB Power Strip
+                  </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
               </Nav>
