@@ -14,7 +14,7 @@ export default function HomePage() {
           </div>
           <div className="col-6" style={{textAlign: "left", alignContent: "center"}}>
             <h3 style={{marginBottom: "40px"}}>I'm Jared Deaton</h3>
-            <h4 style={{marginBottom: "0px"}}>C# Desktop App Developer <span style={{fontSize: "22px"}}>(3+ Years of Professional Experience)</span></h4>
+            <h4 style={{marginBottom: "0px"}}>WPF & C# App Developer <span style={{fontSize: "22px"}}>(3+ Years of Professional Experience)</span></h4>
             <h4 style={{margin: "20px 0px"}}>Full Stack Web Developer Using React and ASP.NET Core</h4>
             <h4>Embedded Hobbyist & Accomplished Electronics Technician</h4>
             <h4 style={{margin: "20px 0px"}}>Test Engineer with Expertise in Environmental Testing</h4>
