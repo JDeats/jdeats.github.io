@@ -9,7 +9,7 @@ import Simon from "../../features/projects/Simon";
 import ExtraStockBooks from "../../features/projects/ExtraStockBooks";
 import AboutMe from "../../features/about/AboutMe";
 import UsbPowerStrip from "../../features/projects/UsbPowerStrip";
-import CvContent from "../../features/cv/cvContent";
+import CvContent from "../../features/cv/CvContent";
 
 export const router = createBrowserRouter([
   { 
