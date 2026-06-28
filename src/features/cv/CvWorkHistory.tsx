@@ -1,8 +1,8 @@
-export default function WorkHistory() {
+export default function CvWorkHistory() {
   return (
-    <div>
-      <p className="resume-section-header">WORK EXPERIENCE:</p>
-      <div className="indented">
+    <>
+      <h5>Work History</h5>
+      <div style={{marginLeft: "1em"}}>
         <div
           style={{ fontStyle: "italic", fontSize: "18px", textAlign: "left" }}
         >
@@ -10,31 +10,42 @@ export default function WorkHistory() {
         </div>
         <div className="spread-content">
           <span className="resume-job-title">Software Engineer</span>
-          <span>Jun 2022 - July 2025</span>
+          <span>Jan 2024 - July 2025</span>
         </div>
-        <ul style={{ marginBottom: "16px" }}>
+        <ul style={{ marginBottom: "5px" }}>
           <li>
             Designed and maintained production test software (WPF, C#) for the
             laser alignment and power calibration of the X4 Laser Range Finder
             (X4-LRF).
           </li>
           <li>
-            Collaborated with Teledyne FLIR engineers to design and implement
-            automated test applications (C#, Python) to evaluate the thermal
-            performance and reliability of advanced Thermal Weapon Sights for
-            the U.S. Army’s FWS-I program.
-          </li>
-          <li>
             Developed RESTful APIs to manage production data in a SQL Server
             using Entity Framework.
-          </li>
-          <li>
-            Created mock hardware and unit tests for the Maztech Companion
-            mobile app built on .NET MAUI.
-          </li>
+          </li>      
           <li>
             Added features and resolved issues in the embedded RTOS for the OLED
             display and control systems module of the X4-LRF using C.
+          </li>
+          <li>
+            Created three Microsoft WPF apps to showcase potential hardware and technology that could be fabricated for prospective customers.
+          </li>
+        </ul>
+
+        <div className="spread-content">
+          <span style={{ fontWeight: "bold" }}>
+            Entry-Level Software Engineer
+          </span>
+          <span>Jun 2022 - Jan 2024</span>
+        </div>
+        <ul>
+          <li>
+            Collaborated with Teledyne FLIR engineers to design and implement Microsoft WPF apps to test the thermal performance and reliability of advanced Thermal Weapon Sights for the U.S. Army's FWS-I program using C# and Python.
+          </li>
+          <li>
+            Created mock hardware and unit tests for the Maztech Companion mobile app built on .NET MAUI.
+          </li>
+          <li>
+            Developed a WPF app to test all functions and validate serial data-packet responses from remote keypads for both the X4-LRF and X4 Fire Control System (X4-FCS).
           </li>
         </ul>
 
@@ -78,11 +89,11 @@ export default function WorkHistory() {
           <span className="resume-job-title">Test Engineer</span>
           <span>Jul 2019 - Sept 2021</span>
         </div>
-        <ul style={{ marginBottom: "5px" }}>
+        <ul >
           <li>
             Authored, revised and maintained production test procedures in
-            compliance with MIL-STD-810 for advanced Hybrid Thermal/Night Vision
-            Optics.
+            compliance with MIL-STD-810 for advanced Hybrid Thermal/Night
+            Vision Optics.
           </li>
           <li>
             Setup test stations and performed validation testing to verify
@@ -98,6 +109,32 @@ export default function WorkHistory() {
           </li>
         </ul>
 
+        <div
+          style={{ fontStyle: "italic", fontSize: "18px", textAlign: "left" }}
+        >
+          Hexagon Manufacturing Intelligence - Irvine, CA
+        </div>
+        <div className="spread-content">
+          <span className="resume-job-title">Calibration Technician</span>
+          <span>Nov 2018 - July 2019</span>
+        </div>
+        <ul >
+          <li>
+            Updated, calibrated and certified Leica Laser Trackers to specification.
+          </li>
+          <li>
+            Calibrated and certified laser tracker accessories such as the Leica 3D Scanner.
+          </li>
+          <li>
+            Validated calibration lab stabliity by assessing ambient vibration levels.
+          </li>
+        </ul>
+
+        <div
+          style={{ fontStyle: "italic", fontSize: "18px", textAlign: "left" }}
+        >
+          N2 Imaging Systems - Irvine, CA
+        </div>
         <div className="spread-content">
           <span style={{ fontWeight: "bold" }}>
             Lead Environmental Test Technician
@@ -133,18 +170,39 @@ export default function WorkHistory() {
         <ul>
           <li>
             Assembled production and prototype thermal cameras and accessories
-            such as smart battery packs.
+            such as battery packs.
           </li>
           <li>
             Tested thermal cameras for reliability, functionality, and
-            performance using automated test software.
+            performance.
           </li>
           <li>
-            Performed environmental stress testing (ESS) using thermal chambers
-            and vibration tables.
+            Performed thermal and vibration environmental stress testing (ESS).
           </li>
         </ul>
+
+        <div
+          style={{ fontStyle: "italic", fontSize: "18px", textAlign: "left" }}
+        >
+          Ampronix - Irvine, CA
+        </div>
+        <div className="spread-content">
+          <span className="resume-job-title">Calibration Technician</span>
+          <span>July 2009 - Jan 2011</span>
+        </div>
+        <ul >
+          <li>
+            Inspected medical grade monitors for validity of repair and overall functionality.
+          </li>
+          <li>
+            Performed chromaticity and luminosity adjustments on CRT monitors using a colorimeter.
+          </li>
+          <li>
+            Provided technical support for products sold or repaired.
+          </li>
+        </ul>
+
       </div>
-    </div>
+    </>
   );
 }

@@ -2,12 +2,11 @@ import { Link } from "react-router";
 import AboutImageCarousel from "./AboutImageCarousel";
 
 export default function AboutMe() {
-
   return (
     <>
       {/* <img src='./images/AboutMe/San Bernardino Mountains All Alone.png' 
         style={{ width: '100%', height: '300px', objectFit: 'cover', objectPosition: 'center', marginBottom: "30px"}}/> */}
-      <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "20px"}}>
+      {/* <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "20px"}}>
         <h4>Electronics and Test Technician</h4>
         <p style={{textAlign: "left", textIndent: "2em"}}>After high school I went to ITT Tech and earned an Associates Degree in 
           Electronics. I found a job as a Quality Control Techinican at Ampronix, inspecting component level
@@ -61,39 +60,48 @@ export default function AboutMe() {
           unit tests for a Xamarin/Maui mobile app, and small improvements/bug fixes for the display and control
           systems module of the LRF.
         </p>
-      </div>
+      </div> */}
 
-      <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "20px"}}>
+      <div
+        style={{ marginLeft: "8%", marginRight: "8%", marginBottom: "20px" }}
+      >
         <h4>Hobbies</h4>
-        <p style={{textAlign: "left", textIndent: "2em"}}>
-          I've always enjoying tinkering with electronics and building hands-on projects.
-          Recently, I've been playing with a STM32 development board and 
-          continuing to improve my embedded programming skills. I gained
-          experience with FreeRTOS while employed at Maztech Industries 
-          and plan to continue developing my expertise with that operating system.
-          A project I worked on recently was a USB controllable power strip. I used an
-          Arduino and a relay to make a power strip that can be controlled by software.
-          See that project{" "}
-          <Link to="/usbPowerStrip">here.</Link>
+        <p style={{ textAlign: "left", textIndent: "2em" }}>
+          I've always enjoying tinkering with electronics and building hands-on
+          projects. A project I worked on recently was a USB controllable power
+          strip. I used an Arduino and a relay to make a power strip that can be
+          controlled by software. See that project{" "}
+          <Link to="/usbPowerStrip">here</Link>. Another project I've been
+          working on is setting up local smart home devices with Home Assistant
+          and ESP Home. So far I've made devices to control my lights, air
+          conditioning and television by capturing the infrared remote control
+          signals and re-transmitting them using an infrared LED and an ESP32
+          microcontroller. I also setup door sensors using hall effect sensors
+          as well as a PC power switch using a transistor. I designed housings
+          for all my devices in OnShape and printed them on my Ender 3, 3D
+          printer.
         </p>
-        <p style={{textAlign: "left", textIndent: "2em"}}>After completing my bachelors degree, 
-          I was looking for something new and fun to get into which led me to
-          paragliding. It's an incredible feeling taking off into the sky, flying over 
-          mountain and coastline ridges. Its been a great way to discover new places and 
-          meet new people. That winter, I decided to try skiing as well.  
-          Developing my skills and confidence on the mountain has been very rewarding.
-          Maybe one day I can combine the two sports.
-          I used to surf when I was younger but these days I prefer stand up paddle boarding and 
-          have taken some kite surfing lessons. 
-          Now that I enjoy sports at both the beach and in the mountains, I feel like I'm really
-          making the most of Southern California's incredible natural terrain and weather.
-        </p>  
+        <p style={{ textAlign: "left", textIndent: "2em" }}>
+          While in college, I got interested in paragliding and started to save
+          up money for lessons and gear. After I graduated I was still
+          interested so I went right back into school with FlyWithJordan at the
+          Andy Jackson Airpark. It's an incredible feeling taking off into the
+          sky, flying over mountain and coastline ridges. Its been a great way
+          to discover new places and meet new people. That winter, I decided to
+          try skiing as well. Developing my skills and confidence on the
+          mountain has been very rewarding. Maybe one day I can combine the two
+          sports. I used to surf when I was younger but these days I prefer
+          stand up paddle boarding. I've taken some kite boarding lessons and
+          plan to continue learning when I get the time. I also want to try wing
+          foiling and parawinging one day.
+        </p>
       </div>
 
-      <div style={{marginLeft: "8%", marginRight: "8%", marginBottom: "50px"}}>
+      <div
+        style={{ marginLeft: "8%", marginRight: "8%", marginBottom: "50px" }}
+      >
         <AboutImageCarousel />
       </div>
-      
     </>
-  )
+  );
 }

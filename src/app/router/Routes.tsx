@@ -9,6 +9,7 @@ import Simon from "../../features/projects/Simon";
 import ExtraStockBooks from "../../features/projects/ExtraStockBooks";
 import AboutMe from "../../features/about/AboutMe";
 import UsbPowerStrip from "../../features/projects/UsbPowerStrip";
+import CvContent from "../../features/cv/cvContent";
 
 export const router = createBrowserRouter([
   { 
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
     element: <App />,
     children: [
         {path: '', element: <HomePage />},
+        {path: 'cv', element: <CvContent />},
         {path: 'resume', element: <ResumeContent />},
         {path: 'reactivities', element: <Reactivities />},
         {path: 'projectsOverview', element: <ProjectsOverview />},

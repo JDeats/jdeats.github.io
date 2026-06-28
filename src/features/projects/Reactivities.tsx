@@ -1,6 +1,6 @@
 export default function Reactivities() {
   return (
-    <>
+    <div style={{marginLeft: "1em", marginRight: "1em"}}>
         <img src='./images/Reactivities/HomePageReduced.jpg' style={{width: "75%", marginBottom: "10px"}}/>
 
         <p className="project-section-header" style={{marginBottom: "10px"}}>Description: <span>A web app built with ASP.NET Core and React, hosted on Microsoft Azure. 
@@ -49,6 +49,6 @@ export default function Reactivities() {
              <img src='./images/Reactivities/ActivityList.jpg' style={{width: "48%", marginRight: "10px"}}/>
              <img src='./images/Reactivities/ActivityDetails.jpg' style={{width: "48%"}}/>
         </div>
-    </>
+    </div>
   )
 }

@@ -1,6 +1,6 @@
 export default function ExtraStockBooks() {
   return (
-    <>
+    <div style={{marginLeft: "1em", marginRight: "1em"}}>
       <h2>Extra-Stock Books</h2>
       {/* <div className="row">
         <div className="col-6">
@@ -38,6 +38,6 @@ export default function ExtraStockBooks() {
       <img src="./images/ExtraStockBooks/Register.jpg" style={{width: "70%", marginBottom: "20px"}} />
       <img src="./images/ExtraStockBooks/Products.jpg" style={{width: "70%", marginBottom: "20px"}} /> 
       <img src="./images/ExtraStockBooks/Update Product.jpg" style={{width: "70%", marginBottom: "20px"}} /> 
-    </>
+    </div>
   )
 }

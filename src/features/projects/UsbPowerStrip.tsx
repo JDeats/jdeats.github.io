@@ -1,6 +1,6 @@
 export default function UsbPowerStrip() {
   return (
-     <>
+     <div style={{marginLeft: "1em", marginRight: "1em"}}>
         <h2>USB Controllable Power Strip</h2>
 
         <img src='./images/UsbPowerStrip/Completed 1 Port.jpg' style={{width: "40%", marginBottom: "10px"}}/>
@@ -56,6 +56,6 @@ export default function UsbPowerStrip() {
           power cycling feature that will power your device ON and OFF continuously
           with the amount of delay specified.
         </p>
-    </>
+    </div>
   )
 }

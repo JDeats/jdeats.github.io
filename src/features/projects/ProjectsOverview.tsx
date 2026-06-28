@@ -4,7 +4,7 @@ export default function ProjectsOverview() {
   const navigate = useNavigate();
   
   return (
-    <div>
+    <div style={{marginLeft: "1em"}}>
       <h1 style={{marginBottom: "30px"}}>Projects Overview</h1>
 
       <div style={{ 

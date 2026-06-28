@@ -1,6 +1,6 @@
 export default function GlideLog() {
   return (
-    <>
+    <div style={{marginLeft: "1em", marginRight: "1em"}}>
         <h2>Glide Log</h2>
 
         <p className="project-section-header" style={{ marginTop: "10px", marginBottom: "10px"}}>Description: <span>A cross-platform mobile app built with .NET Maui for logging paragliding and hang gliding flights.</span>
@@ -42,6 +42,6 @@ export default function GlideLog() {
         </div>
         
         
-    </>
+    </div>
   )
 }

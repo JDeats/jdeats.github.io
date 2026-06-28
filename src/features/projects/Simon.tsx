@@ -1,6 +1,6 @@
 export default function Simon() {
   return (
-    <>
+    <div style={{marginLeft: "1em", marginRight: "1em"}}>
         <img src="./images/Simon/GameBoard.jpg" style={{width: "50%", marginBottom: "20px"}}/>
         <p className="project-section-header" style={{marginBottom: "10px", textAlign: "center"}}>Description: <span>A recreation of the Simon memory game made by Milton Bradley using HTML, CSS and Javascript.</span>
         </p>
@@ -21,6 +21,6 @@ export default function Simon() {
         <div style={{ textAlign: "center", marginBottom: "10px"}}>
             <a href="https://github.com/JDeats/Simon" target="_blank" rel="noopener noreferrer" title="Reactivities">Link To Github</a>
         </div>
-    </>
+    </div>
   )
 }

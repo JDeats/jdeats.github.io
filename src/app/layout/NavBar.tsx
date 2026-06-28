@@ -27,8 +27,9 @@ function NavBar() {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-center flex-grow-1 pe-3">
+              <Nav className="justify-content-center flex-grow-1 pe-3" style={{fontSize: "18px", fontWeight: "bold"}}>
                 <Nav.Link as={NavLink} to='/'>Home</Nav.Link>
+                <Nav.Link as={NavLink} to='/cv'>CV</Nav.Link>
                 <Nav.Link as={NavLink} to='/resume'>Resume</Nav.Link>
                 <NavDropdown
                   title="Projects"
