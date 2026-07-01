@@ -1,6 +1,7 @@
 import CvContact from "./CvContact";
 import CvEducation from "./CvEducation";
 import CvInterests from "./CvInterests";
+import CvObjective from "./CvObjective";
 import CvSkills from "./CvSkills";
 import CvWorkHistory from "./CvWorkHistory";
 
@@ -14,6 +15,7 @@ export default function CvBody() {
             <CvSkills />
         </div>
         <div style={{flex: 8}}>
+            <CvObjective />
             <CvWorkHistory />
         </div>
     </div>
